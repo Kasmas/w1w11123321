@@ -20,8 +20,9 @@ int main() {
 		printf("4. Divide\n");
 		printf("5. Exponentation\n");
 		printf("ESC. Exit\n");
+		scanf("%d", &a);
 
-		key = scanf("%d", &a);
+		key = a
 
 		switch (key) {
 		case '1':
