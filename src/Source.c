@@ -6,6 +6,7 @@
 int main() {
 	int accumulator = 0, second_operand;
 	char key;
+	int a;
 
 	do {
 		system("CLS");
@@ -20,7 +21,7 @@ int main() {
 		printf("5. Exponentation\n");
 		printf("ESC. Exit\n");
 
-		key = getch(NULL);
+		key = scanf("%d", &a);
 
 		switch (key) {
 		case '1':
