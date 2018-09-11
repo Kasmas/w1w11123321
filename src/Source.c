@@ -22,7 +22,7 @@ int main() {
 		printf("ESC. Exit\n");
 		scanf("%d", &a);
 
-		key = a
+		key = a;
 
 		switch (key) {
 		case '1':
