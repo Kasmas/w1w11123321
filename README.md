@@ -1,2 +1,2 @@
 # deposit-calc
-[![Build Status](https://travis-ci.org/ip613s07/deposit-calc.svg?branch=master)](https://travis-ci.org/ip613s07/deposit-calc)
+[![Build Status](https://travis-ci.org/Kasmas/w1w11123321.svg?branch=master)](https://travis-ci.org/Kasmas/w1w11123321)
