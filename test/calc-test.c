@@ -27,7 +27,7 @@ CTEST(subtraction_two_positive_check, Subtraction)
 
 CTEST(subtraction_positive_and_negative_check, Subtraction)
 {
-	int result = subtractionn(-5, 5);
+	int result = subtraction(-5, 5);
 
 	int expected = -10;
 	ASSERT_EQUAL(expected, result);
