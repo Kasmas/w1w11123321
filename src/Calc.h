@@ -2,17 +2,17 @@
 
 int addition(int A, int B) {
 	addition = A + B;
-	return addition;
+	return 0;
 }
 
 int subtraction(int A, int B) {
 	subtraction = A - B;
-	return subtraction;
+	return 0;
 }
 
 int multiplication(int A, int B) {
 	multiplication = A * B;
-	return multiplication;
+	return 0;
 }
 
 int divide(int A, int B) {
