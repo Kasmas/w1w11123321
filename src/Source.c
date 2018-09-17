@@ -43,7 +43,7 @@ int main() {
 		case '4':
 			printf("Enter divide: ");
 			scanf("%d", &second_operand);
-			accumulatoraccumulator = divide(accumulator, second_operand);
+			accumulator = divide(accumulator, second_operand);
 			break;
 		case '5':
 			printf("Enter exponent: ");
