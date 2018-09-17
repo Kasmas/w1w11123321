@@ -11,7 +11,7 @@ int main() {
 	do {
 		system("CLS");
 
-		printf("%d\n", y);
+		printf("%d\n", accumulator);
 
 		printf("Select operation\n");
 		printf("1. Addition\n");
