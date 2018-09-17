@@ -2,7 +2,8 @@
 #pragma once
 
 int addition(int A, int B) {
-	addition = A + B;
+	int asd;
+	asd = A + B;
 	return 0;
 }
 
