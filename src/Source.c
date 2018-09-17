@@ -4,14 +4,14 @@
 #include "Calc.h"
 
 int main() {
-	int accumulator = 0, second_operand;
+	int y, second_operand;
 	char key;
 	int a;
 
 	do {
 		system("CLS");
 
-		printf("%d\n", accumulator);
+		printf("%d\n", y);
 
 		printf("Select operation\n");
 		printf("1. Addition\n");
@@ -28,27 +28,27 @@ int main() {
 		case '1':
 			printf("Enter addend: ");
 			scanf("%d", &second_operand);
-			accumulator = addition(accumulator, second_operand);
+			y = addition(y, second_operand);
 			break;
 		case '2':
 			printf("Enter subtractor: ");
 			scanf("%d", &second_operand);
-			accumulator = subtraction(accumulator, second_operand);
+			y = subtraction(y, second_operand);
 			break;
 		case '3':
 			printf("Enter multiplier: ");
 			scanf("%d", &second_operand);
-			accumulator = multiplication(accumulator, second_operand);
+			y = multiplication(y, second_operand);
 			break;
 		case '4':
 			printf("Enter divide: ");
 			scanf("%d", &second_operand);
-			accumulator = divide(accumulator, second_operand);
+			y = divide(y, second_operand);
 			break;
 		case '5':
 			printf("Enter exponent: ");
 			scanf("%d", &second_operand);
-			accumulator = exponentation(accumulator, second_operand);
+			y = exponentation(y, second_operand);
 			break;
 		}
 
