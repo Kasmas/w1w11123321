@@ -1,17 +1,17 @@
 #pragma once
 
 int addition(int A, int B) {
-	addition=A + B;
+	addition = A + B;
 	return addition;
 }
 
 int subtraction(int A, int B) {
-	subtraction=A - B;
+	subtraction = A - B;
 	return subtraction;
 }
 
 int multiplication(int A, int B) {
-	multiplication=A * B;
+	multiplication = A * B;
 	return multiplication;
 }
 
