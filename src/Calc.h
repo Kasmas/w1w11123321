@@ -1,15 +1,18 @@
 #pragma once
 
 int addition(int A, int B) {
-	return A + B;
+	addition=A + B;
+	return addition;
 }
 
 int subtraction(int A, int B) {
-	return A - B;
+	subtraction=A - B;
+	return subtraction;
 }
 
 int multiplication(int A, int B) {
-	return A * B;
+	multiplication=A * B
+	return multiplication;
 }
 
 int divide(int A, int B) {
