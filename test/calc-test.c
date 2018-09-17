@@ -1,3 +1,4 @@
+#pragma once
 #include <ctest.h>
 #include <../src/Calc.h>
 
