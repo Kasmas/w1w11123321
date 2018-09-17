@@ -11,7 +11,7 @@ int subtraction(int A, int B) {
 }
 
 int multiplication(int A, int B) {
-	multiplication=A * B
+	multiplication=A * B;
 	return multiplication;
 }
 
