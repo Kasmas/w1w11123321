@@ -1,7 +1,7 @@
 #include <ctest.h>
 #include <../src/Calc.h>
 
-CTEST(addition_two_positive_check, Addition)
+CTEST(addition_two_positive_check, addition)
 {
     int result = addition(5, 5);
     
@@ -9,7 +9,7 @@ CTEST(addition_two_positive_check, Addition)
     ASSERT_EQUAL(expected, result);
 }
 
-CTEST(addition_positive_and_negative_check, Addition)
+CTEST(addition_positive_and_negative_check, addition)
 {
 	int result = addition(-5, 5);
 
@@ -17,7 +17,7 @@ CTEST(addition_positive_and_negative_check, Addition)
     ASSERT_EQUAL(expected, result);
 }
 
-CTEST(subtraction_two_positive_check, Subtraction)
+CTEST(subtraction_two_positive_check, subtraction)
 {
 	int result = subtraction(5, 5);
 
@@ -25,7 +25,7 @@ CTEST(subtraction_two_positive_check, Subtraction)
 	ASSERT_EQUAL(expected, result);
 }
 
-CTEST(subtraction_positive_and_negative_check, Subtraction)
+CTEST(subtraction_positive_and_negative_check, subtraction)
 {
 	int result = subtraction(-5, 5);
 
@@ -33,7 +33,7 @@ CTEST(subtraction_positive_and_negative_check, Subtraction)
 	ASSERT_EQUAL(expected, result);
 }
 
-CTEST(multiplication_two_positive_check, Multiplication)
+CTEST(multiplication_two_positive_check, multiplication)
 {
 	int result = multiplication(5, 5);
 
@@ -41,7 +41,7 @@ CTEST(multiplication_two_positive_check, Multiplication)
 	ASSERT_EQUAL(expected, result);
 }
 
-CTEST(multiplication_positive_and_negative_check, Multiplication)
+CTEST(multiplication_positive_and_negative_check, multiplication)
 {
 	int result = multiplication(-5, 5);
 
