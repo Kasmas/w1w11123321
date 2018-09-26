@@ -1,5 +1,4 @@
 #define CTEST_MAIN
-#pragma once
 
 #include <ctest.h>
 
