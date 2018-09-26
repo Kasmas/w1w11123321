@@ -1,5 +1,4 @@
 #include <stdio.h>
-#pragma once
 
 int addition(int A, int B) {
 	return A + B;
